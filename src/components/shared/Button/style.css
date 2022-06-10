@@ -1,0 +1,19 @@
+button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .atencao {
+    background-color: yellow;
+    color: black;
+  } 
+  .sucesso {
+    background-color: green;
+    color: black;
+  }
+  .perigo {
+    background-color: red;
+    color: black;
+  }
