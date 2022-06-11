@@ -1,7 +1,7 @@
 yarn create react-app blueworking --template typescript
 
-npm install -g yarn
-
 yarn add react-router-dom
+
+npm install -g yarn
 
 yarn start
