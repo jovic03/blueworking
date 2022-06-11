@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="container">
       <h1 className="logo">Blueworking</h1>
-      <Button texto="meu texto"/>
       <div className="content">
         <Router/>
       </div>

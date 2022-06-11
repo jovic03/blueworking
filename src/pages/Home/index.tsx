@@ -23,19 +23,19 @@ function Home() {
     localStorage.setItem('user',_id)
     navigate('./dashboard')
 
-    const objEMail={email};
+    //const objEMail={email};
 
-    // console.log(fetch('https://pokeapi.co/api/v2/pokemon').then(
-    //   (response)=>{
-    //     console.log('Reposta da promise em caso de sucesso (resolve)',response)
-    //     return response.json();
-    //   }
-    // ).then((response)=>{
-    //   console.log(response);
-    //   console.log(response.results.map((pokemon:any)=>
-    //     console.log(pokemon.name)
-    //   ))
-    // })) 
+    /*console.log(fetch('https://pokeapi.co/api/v2/pokemon').then(
+      (response)=>{
+        console.log('Reposta da promise em caso de sucesso (resolve)',response)
+        return response.json();
+      }
+    ).then((response)=>{
+      console.log(response);
+      console.log(response.results.map((pokemon:any)=>
+        console.log(pokemon.name)
+      ))
+    })) 
 
     const response = await fetch('https://pokeapi.co/api/v2/pokemon')
     const data = await response.json();
@@ -43,7 +43,7 @@ function Home() {
     console.log(data);
 
     
-    console.log(evento);
+    console.log(evento);*/
 
   }
 
@@ -62,15 +62,15 @@ function Home() {
           placeholder="Informe o seu melhor e-mail"
           onChange={ event=> setEmail(event.target.value)}
           required
-          autoComplete="off"
-        />
+          autoComplete="off"/>
+
         <button type="submit" className="btn">Entrar</button>
-        <p>{email}</p>
+        {/* <p>{email}</p> */}
       </form>
 
-      <Button texto="Enviar" estilo="sucesso"/>
+      {/* <Button texto="Enviar" estilo="sucesso"/>
       <Button texto="cancelar" estilo="perigo"/>
-      <Button texto="teste" estilo="atencao"/>
+      <Button texto="teste" estilo="atencao"/> */}
     </>
   )
 }
